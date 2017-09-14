@@ -1,0 +1,59 @@
+
+html {
+  font-family: "Noto Sans", sans-serif;
+  font-family: "Noto Sans Japanese", sans-serif;
+}
+
+.grey {
+  color: #e2e2e2;
+}
+
+.bordeaux {
+  color: #860927;
+}
+
+.pink {
+  color: #b64c6e;
+}
+
+.light-pink {
+  color: #d89fb0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.border-bottom {
+  border-bottom: solid 2px #d89fb0;
+}
+
+header {
+  text-align: center;
+}
+
+.btn-ghost {
+  border-color: #d89fb0;
+}
+
+@media only screen and (min-width: 60em) {
+
+  header {
+    text-align: left;
+  }
+
+  .nav {
+    float: right;
+  }
+
+}
+
+.nav-li:hover {
+  color: #860927;
+}
+
+.btn-ghost:hover {
+  border-color: #b64c6e;
+  background-color: rgba(182, 76, 110, 0.4);
+  color: #860927;
+}
