@@ -1,6 +1,9 @@
 
 html {
   font-family: "Noto Sans", sans-serif;
+}
+
+.ja {
   font-family: "Noto Sans Japanese", sans-serif;
 }
 
@@ -33,7 +36,7 @@ header {
 }
 
 .btn-ghost {
-  border-color: #d89fb0;
+  border: solid 2px #d89fb0;
 }
 
 @media only screen and (min-width: 60em) {
@@ -54,6 +57,10 @@ header {
 
 .btn-ghost:hover {
   border-color: #b64c6e;
-  background-color: rgba(182, 76, 110, 0.4);
+  background-color: rgba(182, 76, 110, .4);
   color: #860927;
+}
+
+hr {
+  border-color: #e2e2e2;
 }
